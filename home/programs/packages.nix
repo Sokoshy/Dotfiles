@@ -13,7 +13,7 @@
         google-chrome
         discord
         youtube-music
-        #anytype
+        anytype
 
         vlc
 
