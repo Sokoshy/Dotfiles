@@ -4,5 +4,6 @@
     flatpak
     xdg-desktop-portal
     xdg-desktop-portal-gtk
+    xdg-utils
   ];
 }
