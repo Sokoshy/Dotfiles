@@ -5,6 +5,4 @@
     xdg-desktop-portal
     xdg-desktop-portal-gtk
   ];
-
-  programs.flatpak.enable = true;
 }

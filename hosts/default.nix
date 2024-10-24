@@ -7,6 +7,7 @@
       ./modules/bluetooth.nix
       ./modules/boot.nix
       ./modules/cachyosEntrie.nix
+      ./modules/flatpak.nix
       ./modules/gnome.nix
       ./modules/keyboard.nix
       ./modules/locales.nix
