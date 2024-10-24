@@ -7,6 +7,7 @@
         ./programs/zed-editor.nix
         ./programs/archives.nix
         ./programs/packages.nix
+        ./programs/flatpak.nix
 
         # ./system/tofi.nix
       ]
