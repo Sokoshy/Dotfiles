@@ -6,6 +6,7 @@
             "nix"
             "rose-pine-theme"
             "toml"
+            "java"
         ];
         userSettings = {
             telemetry = {
