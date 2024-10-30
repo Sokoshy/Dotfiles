@@ -20,6 +20,7 @@
                 light = "Rosé Pine Dawn";
                 dark = "Rosé Pine Moon";
             };
+            format_on_save = "on";
         };
     };
 
