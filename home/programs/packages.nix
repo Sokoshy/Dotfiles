@@ -15,6 +15,8 @@
         youtube-music
         anytype
 
+        ookla-speedtest
+
         vlc
 
         #Dev
