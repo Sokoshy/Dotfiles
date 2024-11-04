@@ -23,5 +23,6 @@
         vim
         helix
         vscode
+        exercism
     ];
 }
