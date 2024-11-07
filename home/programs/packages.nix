@@ -14,6 +14,7 @@
         discord
         youtube-music
         anytype
+        gimp
 
         ookla-speedtest
 
