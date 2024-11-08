@@ -6,12 +6,14 @@
         displayManager.gdm.enable   = true;
         desktopManager.gnome.enable = true;
     };
+    gnome.gnome-keyring.enable
     xdg.portal = {
         enable = true;
         extraPortals = with pkgs; [ xdg-desktop-portal-gtk ];
       };
 
     environment.systemPackages = with pkgs; [
+    xdg-desktop-portal
     gnomeExtensions.dash-to-dock
     gnome-tweaks
     gnomeExtensions.appindicator
