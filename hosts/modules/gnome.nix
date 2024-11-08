@@ -17,11 +17,13 @@
         displayManager.gdm.enable = true;
         desktopManager.gnome.enable = true;
       };
-      xdg.portal = {
+
+      xdg-desktop-portal = {
         enable = true;
         extraPortals = with pkgs; [ xdg-desktop-portal-gtk ];
       };
     };
+
 
     environment.systemPackages = with pkgs; [
     gnomeExtensions.dash-to-dock
