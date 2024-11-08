@@ -6,7 +6,7 @@
         displayManager.gdm.enable   = true;
         desktopManager.gnome.enable = true;
     };
-    gnome.gnome-keyring.enable;
+    gnome.gnome-keyring.enable = true;
     xdg.portal = {
         enable = true;
         extraPortals = with pkgs; [ xdg-desktop-portal-gtk ];
