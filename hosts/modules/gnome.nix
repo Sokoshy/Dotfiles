@@ -1,10 +1,26 @@
 { config, pkgs, ... }:
 
 {
-    services.xserver = {
+    # services.xserver = {
+    #     enable = true;
+    #     displayManager.gdm.enable   = true;
+    #     desktopManager.gnome.enable = true;
+    # };
+    # services.xdg.portal = {
+    #     enable = true;
+    #     extraPortals = with pkgs; [ xdg-desktop-portal-gtk ];
+    #   };
+    # }
+    services = {
+      xserver = {
         enable = true;
-        displayManager.gdm.enable   = true;
+        displayManager.gdm.enable = true;
         desktopManager.gnome.enable = true;
+      };
+      xdg.portal = {
+        enable = true;
+        extraPortals = with pkgs; [ xdg-desktop-portal-gtk ];
+      };
     };
 
     environment.systemPackages = with pkgs; [
