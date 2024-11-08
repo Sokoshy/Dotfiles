@@ -11,7 +11,7 @@
 
         #app
         google-chrome
-        # discord
+        discord
         youtube-music
         anytype
         gimp
