@@ -12,6 +12,7 @@
         #app
         google-chrome
         discord
+        vesktop #screen sharing
         youtube-music
         anytype
         gimp
