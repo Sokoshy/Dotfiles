@@ -15,7 +15,7 @@
         youtube-music
         anytype
         gimp
-        ferdium
+
 
         ookla-speedtest
 
