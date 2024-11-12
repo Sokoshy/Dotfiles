@@ -24,6 +24,7 @@
         vim
         helix
         vscode
+        jetbrains.idea-community
         exercism
     ];
 }
