@@ -8,6 +8,7 @@
         ./programs/archives.nix
         ./programs/packages.nix
         ./programs/flatpak.nix
+        ./programs/firefox.nix
 
         # ./system/tofi.nix
       ]
