@@ -3,6 +3,6 @@
     programs = {
         steam = {
           enable = true;
-        }
-    }
+        };
+    };
 }
