@@ -9,6 +9,7 @@
       ./modules/cachyosEntrie.nix
       ./modules/flatpak.nix
       ./modules/gnome.nix
+      ./modules/gamin.nix
       ./modules/keyboard.nix
       ./modules/locales.nix
       ./modules/network.nix
