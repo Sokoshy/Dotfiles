@@ -12,6 +12,7 @@
         #app
         google-chrome
         youtube-music
+        spotify
         anytype
         gimp
         vesktop
