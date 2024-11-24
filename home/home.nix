@@ -9,6 +9,7 @@
         ./programs/packages.nix
         ./programs/flatpak.nix
         ./programs/firefox.nix
+        ./programs/gaming.nix
 
         # ./system/tofi.nix
       ]
