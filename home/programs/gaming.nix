@@ -6,5 +6,6 @@
   ];
   programs.mangohud = {
       enable = true;
+      package = with pkgs; [ mangohud ];
   };
 }
