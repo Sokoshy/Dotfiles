@@ -10,6 +10,7 @@
         ./programs/flatpak.nix
         ./programs/firefox.nix
         ./programs/gaming.nix
+        ./programs/helix.nix
 
         # ./system/tofi.nix
       ]
