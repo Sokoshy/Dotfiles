@@ -23,7 +23,7 @@
 
         #Dev
         vim
-        helix
+        # helix
         vscode
         exercism
     ];
