@@ -23,6 +23,7 @@
 
         #Dev
         vim
+        neovim
         # helix
         vscode
         exercism
