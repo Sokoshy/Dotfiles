@@ -9,6 +9,13 @@
         btop
         htop
 
+        #font
+        (pkgs.nerdfonts.override {
+              fonts = [
+                "NerdFontsSymbolsOnly"
+              ];
+            })
+
         #app
         google-chrome
         youtube-music
