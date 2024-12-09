@@ -10,11 +10,7 @@
         htop
 
         #font
-        (pkgs.nerdfonts.override {
-              fonts = [
-                "NerdFontsSymbolsOnly"
-              ];
-            })
+        nerd-fonts.symbols-only
 
         #app
         google-chrome
