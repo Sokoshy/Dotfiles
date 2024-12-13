@@ -27,6 +27,7 @@
         #Dev
         vim
         neovim
+        gcc
         # helix
         vscode
         exercism
