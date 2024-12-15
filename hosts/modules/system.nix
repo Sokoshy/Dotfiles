@@ -20,7 +20,7 @@
 
         optimise = {
             automatic = true;
-            dates = ["daily"];
+            dates = ["20:00"];
         };
 
         settings = {
