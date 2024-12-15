@@ -3,9 +3,7 @@
   home.packages = with pkgs; [
       prismlauncher
       heroic
+      goverlay
+      mangohud
   ];
-  programs.mangohud = {
-      enable = true;
-      package = pkgs.mangohud;
-  };
 }
