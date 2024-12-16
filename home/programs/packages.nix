@@ -30,6 +30,7 @@
         gcc
         # helix
         vscode
+        jetbrains.idea-ultimate
         exercism
     ];
 }
