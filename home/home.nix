@@ -3,9 +3,10 @@
   imports =
     if hostname == "desktop" then
       [
+        ./programs/archives.nix
+        ./programs/aliases.nix 
         ./programs/git.nix
         ./programs/zed-editor.nix
-        ./programs/archives.nix
         ./programs/packages.nix
         ./programs/flatpak.nix
         ./programs/firefox.nix
