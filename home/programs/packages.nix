@@ -14,6 +14,7 @@
 
         #app
         google-chrome
+        brave
         youtube-music
         spotify
         anytype
