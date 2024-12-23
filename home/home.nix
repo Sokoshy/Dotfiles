@@ -4,12 +4,11 @@
     if hostname == "desktop" then
       [
         ./programs/archives.nix
-        ./programs/aliases.nix 
+        ./programs/aliases.nix
         ./programs/git.nix
         ./programs/zed-editor.nix
         ./programs/packages.nix
         ./programs/flatpak.nix
-        ./programs/firefox.nix
         ./programs/gaming.nix
         ./programs/helix.nix
 
