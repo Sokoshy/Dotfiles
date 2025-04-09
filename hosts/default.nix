@@ -6,6 +6,7 @@
 
       ./modules/bluetooth.nix
       ./modules/boot.nix
+      ./modules/ia.nix
       ./modules/keyboard.nix
       ./modules/locales.nix
       ./modules/network.nix
