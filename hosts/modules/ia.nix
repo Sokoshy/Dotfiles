@@ -1,6 +1,5 @@
 { pkgs, ...}:
 {
-  services.open-webui.enable = true;
     services = {
       ollama = {
         enable = true;
@@ -11,5 +10,4 @@
       };
     open-webui.enable = true;
   };
-  # services.open-webui.enable = true;
 }
