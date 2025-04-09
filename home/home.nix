@@ -5,7 +5,6 @@
       [
         ./programs/archives.nix
         ./programs/git.nix
-        ./programs/ia.nix
         ./programs/packages.nix
 
         # ./system/tofi.nix
