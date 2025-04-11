@@ -17,6 +17,8 @@
     vscode
     zed-editor
     exercism
+    rustup
+    gcc
 
     # app
     google-chrome
