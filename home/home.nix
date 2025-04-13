@@ -4,6 +4,7 @@
     if hostname == "nix-desktop" then
       [
         ./programs/archives.nix
+        ./programs/gaming.nix
         ./programs/git.nix
         ./programs/packages.nix
 
