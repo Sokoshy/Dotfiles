@@ -28,6 +28,9 @@
     gimp
     ookla-speedtest
 
+    # rgb
+    openrgb
+
     # nix related / terminal
     ghostty
     btop  # replacement of htop/nmon
