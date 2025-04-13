@@ -28,8 +28,6 @@
     gimp
     ookla-speedtest
 
-    # rgb
-    openrgb
 
     # nix related / terminal
     ghostty

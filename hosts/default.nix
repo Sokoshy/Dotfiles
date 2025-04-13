@@ -11,6 +11,7 @@
       ./modules/keyboard.nix
       ./modules/locales.nix
       ./modules/network.nix
+      ./modules/openrgb.nix
       ./modules/pipewire.nix
       ./modules/printing.nix
       ./modules/plasma.nix
