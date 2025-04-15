@@ -14,7 +14,6 @@
     # code
     vim
     neovim
-    vscode
     zed-editor
     exercism
     rustup

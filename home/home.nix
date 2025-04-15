@@ -7,7 +7,7 @@
         ./programs/gaming.nix
         ./programs/git.nix
         ./programs/packages.nix
-
+        ./programs/vscode.nix
         # ./system/tofi.nix
       ]
     # else if hostname == "nix-laptop" then
