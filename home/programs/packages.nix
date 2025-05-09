@@ -16,7 +16,6 @@
     neovim
     zed-editor
     exercism
-    rustup
     gcc
 
     # app
