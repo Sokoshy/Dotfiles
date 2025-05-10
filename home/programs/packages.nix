@@ -31,6 +31,7 @@
     # nix related / terminal
     ghostty
     zellij
+    tmux
     btop  # replacement of htop/nmon
     iotop # io monitoring
     iftop # network monitoring
