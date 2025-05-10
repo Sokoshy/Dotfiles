@@ -1,4 +1,4 @@
-{ pkgs, ...}:
+{ pkgs, stable, ...}:
 {
   home.packages = with pkgs; [
     fastfetch
@@ -21,7 +21,7 @@
     # app
     google-chrome
     brave
-    anytype
+    stable.anytype
     vesktop
     gimp
     ookla-speedtest
