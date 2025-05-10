@@ -9,7 +9,6 @@
 
     # misc
     which
-    tree
 
     # code
     vim
@@ -31,6 +30,7 @@
 
     # nix related / terminal
     ghostty
+    zellij
     btop  # replacement of htop/nmon
     iotop # io monitoring
     iftop # network monitoring
