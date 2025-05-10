@@ -26,6 +26,8 @@
     gimp
     ookla-speedtest
 
+    # fonts
+    nerd-fonts.symbols-only
 
     # nix related / terminal
     ghostty
