@@ -19,6 +19,7 @@
 
     # app
     google-chrome
+    youtube-music
     brave
     stable.anytype
     vesktop
