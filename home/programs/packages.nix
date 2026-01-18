@@ -4,8 +4,8 @@
     fastfetch
 
     # utils
-    eza # A modern replacement for ‘ls’
-    fzf # A command-line fuzzy finder
+    eza 
+    fzf
 
     # util
     ripgrep
