@@ -38,6 +38,8 @@
     firefox
     vivaldi
     stable.anytype
+    affine
+    bitwarden-desktop
     vesktop
     gimp
     onlyoffice-desktopeditors
