@@ -1,4 +1,4 @@
-````md
+
 # ❄️ NixOS Dotfiles
 
 Configuration **NixOS modulaire** basée sur **flakes**, avec **Home Manager intégré**.  
