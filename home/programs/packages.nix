@@ -14,7 +14,6 @@
     fzf
 
     # networking tools
-    nextdns
     mtr # A network diagnostic tool
     iperf3
     nmap

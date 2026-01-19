@@ -13,6 +13,7 @@
       [
         ./programs/archives.nix
         ./programs/git.nix
+        ./programs/nextdns.nix
         ./programs/packages.nix
         ./programs/shell.nix
       ]
