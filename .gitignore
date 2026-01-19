@@ -3,3 +3,4 @@ result
 result-*
 .nix-*
 .direnv
+.sops.yaml

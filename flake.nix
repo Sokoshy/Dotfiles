@@ -15,9 +15,13 @@
       url = "github:youwen5/zen-browser-flake";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+
+    #sopsnix
+    sops-nix.url = "github:Mic92/sops-nix";
+    sops-nix.inputs.nixpkgs.follows = "nixpkgs";
   };
 
-  outputs = { self, nixpkgs, nixpkgs-stable, home-manager, ... } @inputs: {
+  outputs = { self, nixpkgs, nixpkgs-stable, home-manager, sops-nix, ... } @inputs: {
     nixosConfigurations = {
         nixos-laptop = let
         username = "sokoshy";
@@ -36,6 +40,7 @@
 
             modules = [
                 ./hosts/default.nix
+                sops-nix.nixosModules.sops
 
                 home-manager.nixosModules.home-manager
                 {
@@ -71,6 +76,7 @@
 
             modules = [
                 ./hosts/default.nix
+                sops-nix.nixosModules.sops
 
                 home-manager.nixosModules.home-manager
                 {
