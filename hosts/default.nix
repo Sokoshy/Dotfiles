@@ -34,6 +34,7 @@
       ./modules/plasma.nix
       ./modules/printing.nix
       ./modules/swap.nix
+      ./modules/sops.nix
       ./modules/system.nix
       ./modules/users.nix
     ]

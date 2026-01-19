@@ -1,16 +1,19 @@
 { config, pkgs, username, ... }:
 
 {
-  ## Path to encrypted secrets files
-  sops.defaultSopsFile = ../../secrets/secrets.yaml;
+  # Path to encrypted secrets files
+  sops.defaultSopsFile = "/home/${username}/Dotfiles/secrets/secrets.yaml";
 
-  ## Format file
+  # Format file
   sops.defaultSopsFormat = "yaml";
 
-  ## Configuration Age (clé locale)
+  # Age Configuration (local key)
   sops.age.keyFile = "/home/${username}/.config/sops/age/keys.txt";
 
-  ## S’assurer que sops est dispo
+  # Allows the use of a file from outside the Nix store
+  sops.validateSopsFiles = false;
+
+  # Make sure that sops is available in the system
   environment.systemPackages = [
     pkgs.sops
     pkgs.age
