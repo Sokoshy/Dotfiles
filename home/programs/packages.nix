@@ -50,6 +50,7 @@
 
     # nix related / terminal
     ghostty
+    alacritty
     zellij
     tmux
     btop 
