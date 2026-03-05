@@ -17,8 +17,8 @@ in
         key = "controld_stamp.laptop";
       };
 
-  # Configurer dnscrypt-proxy2 dynamiquement selon le hostname
-  services.dnscrypt-proxy2 = lib.mkIf (controld_stamp != null) {
+  # Configurer dnscrypt-proxy dynamiquement selon le hostname
+  services.dnscrypt-proxy = lib.mkIf (controld_stamp != null) {
     enable = true;
     settings = {
       server_names = [ "controld" ];
