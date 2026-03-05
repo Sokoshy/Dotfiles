@@ -25,6 +25,7 @@
 
       ./modules/bluetooth.nix
       ./modules/boot.nix
+      ./modules/controld.nix
       ./modules/keyboard-laptop.nix
       ./modules/locales.nix
       ./modules/network.nix
