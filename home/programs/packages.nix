@@ -4,7 +4,7 @@
     fastfetch
 
     # utils
-    eza 
+    eza
     fzf
 
     # util
@@ -34,16 +34,19 @@
 
     # app
     pear-desktop #youtube-music
-    inputs.zen-browser.packages.${pkgs.stdenv.hostPlatform.system}.default
-    firefox
-    vivaldi
-    stable.anytype
-    affine
+    # stable.anytype
     bitwarden-desktop
     vesktop
     gimp
     onlyoffice-desktopeditors
     ookla-speedtest
+    #browser
+    firefox
+    inputs.zen-browser.packages.${pkgs.stdenv.hostPlatform.system}.default
+    vivaldi
+    # for obsidian
+    obsidian
+    dropbox
 
     # fonts
     nerd-fonts.symbols-only
@@ -53,7 +56,7 @@
     alacritty
     zellij
     tmux
-    btop 
+    btop
     iotop # io monitoring
     iftop # network monitoring
 
