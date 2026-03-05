@@ -29,7 +29,7 @@
       ./modules/keyboard-laptop.nix
       ./modules/locales.nix
       ./modules/network.nix
-      ./modules/nextdns.nix
+      # ./modules/nextdns.nix
       ./modules/nvidia.nix
       ./modules/pipewire.nix
       ./modules/plasma.nix
