@@ -47,4 +47,9 @@ in
       enable = true;
       configFile = config.sops.templates."dnscrypt-proxy.toml".path;
     };
+
+  systemd.services.dnscrypt-proxy = {
+    unitConfig.ConditionPathExists =
+      config.sops.templates."dnscrypt-proxy.toml".path;
+  };
 }
